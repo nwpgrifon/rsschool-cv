@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    background-color: #e0e0e0;
+}
+.line{
+    height: 2px;
+    background-color: #000;
+}
+
+.profile_wrap{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 150px;
+}
+
+.main_info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.table-info{
+    width: 60%;
+    text-align: left;
+}
+.table-info th, .table-info td{
+    padding: 5px;
+    border-bottom: 1px dashed #000;
+}
+.main_info_img img{
+    display: block;
+    height: 220px;
+}
+
+.flex-block{
+    margin-top: 40px;
+    display: flex;
+}
+.flex-block__caption{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
